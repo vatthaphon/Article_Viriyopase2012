@@ -1,0 +1,8 @@
+b=3;            % see formula for f
+dt=0.001;       % time steps 
+tstart=0;tend=10;        
+tau1=0.09333;     % delay between neuron 1 and 2
+tau3=0.09333;       % delay between neuron 2 and 3
+epsi=0.1111;      % coupling strength 
+
+phi=[0.3; 0.2; 0.5]; % initial phases of the three MS-oscillators
